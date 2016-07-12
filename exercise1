@@ -1,0 +1,73 @@
+var age = 21;
+var pi = 3.1416;
+var date = new Date();
+var computeArea = function(l,w){
+    
+    
+    return l*w;
+    
+};
+var name="kathlyn";
+
+console.log("Age:              "+age);
+console.log("PI:               "+pi);
+console.log("Date:             "+date);
+console.log("Name:             "+name);
+console.log("Computer Area:    "+computeArea(10,60));
+
+
+
+var x=1;
+var y=null;
+var waladiha=undefined;
+
+if(x)
+console.log('x is true');
+
+if(!y)
+console.log('y is false');
+
+
+if(!waladiha)
+console.log('wala diha si undefies ');
+
+// ==================kath Javasrcipt Object Notation
+
+var kathObject = {
+    
+    
+    name: 'kathlyn',
+    lastname: 'lorete',
+    address: 'dauis'
+};
+
+if (age<15){
+
+console.log( "I dont have to think about my life yet");
+}
+
+if (age>15 && age< 30){
+
+console.log( "Need to finish studies and find a job");
+
+}
+
+if (age>30 && age<35) {
+console.log("I need to marry");
+
+}
+
+if (age>35 && age<40){
+console.log( "I will rear children");
+}
+if (age>40 && age<59){
+console.log("Prepare to retire");
+}
+if (age<60){
+console.log( " I will now retire");
+
+  
+console.log(line_Space);  
+ 
+  rl.close();
+});
